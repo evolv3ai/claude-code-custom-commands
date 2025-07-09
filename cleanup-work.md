@@ -11,3 +11,11 @@ Consider the work we were asked to complete.
   - If it helps to name identifiers differently to avoid comments, let's do that.
 - Is the implementation clean, minimal, and crisp? Can we tighten it up?
 - Is there anything we should consider changing or improving before we move on?
+
+Are there any typecheck warnings/errors:
+
+!`pnpm run lint || echo "No lint script available"`
+
+Are there any lint warnings:
+
+!`pnpm run lint || echo "No lint script available"`
