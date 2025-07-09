@@ -1,3 +1,8 @@
+---
+description: Rebrand UI
+allowed-tools: Bash(git:*)
+---
+
 We are going to create a new UI app and generate new commits using `commit-creator`.
 
 We cloned a template NextJS repo here and now we will rebrand it for our project.

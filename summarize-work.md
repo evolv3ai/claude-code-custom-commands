@@ -1,3 +1,8 @@
+---
+description: Summarize work
+allowed-tools: Bash(git:*)
+---
+
 Look at the changes we've made so far:
 
 !`git diff HEAD`

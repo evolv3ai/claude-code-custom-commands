@@ -1,3 +1,7 @@
+---
+description: Cleanup work
+allowed-tools: Bash(git:*), Bash(pnpm:*), Bash(echo:*)
+---
 Look at the changes we've made so far:
 
 !`git diff HEAD`
@@ -5,10 +9,10 @@ Look at the changes we've made so far:
 Consider the work we were asked to complete.
 
 - How did we do?
-- Should we add more tests? Should we remove any tests?
-- Should we remove any crufty code we added?
-- Should we remove any added comments that are non-essential?
-  - If it helps to name identifiers differently to avoid comments, let's do that.
+- Are there missing more tests we should add?
+- Are there extraneous tests that we should remove?
+- Is there any crufty code we added?
+- Did we add any comments that are non-essential?
 - Is the implementation clean, minimal, and crisp? Can we tighten it up?
 - Is there anything we should consider changing or improving before we move on?
 
@@ -19,3 +23,5 @@ Are there any typecheck warnings/errors:
 Are there any lint warnings:
 
 !`pnpm run lint || echo "No lint script available"`
+
+Make and present a plan to clean up any issues you've identified. Go! <3

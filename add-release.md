@@ -1,3 +1,7 @@
+---
+description: Add release
+---
+
 We are going to make this node project releable on npmjs.org
 
 Follow each step one-by-one:

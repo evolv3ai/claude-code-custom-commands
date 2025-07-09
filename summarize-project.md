@@ -1,3 +1,8 @@
+---
+description: Summarize project
+allowed-tools: Bash(tree:*)
+---
+
 Look at the changes we've made so far:
 
 !`tree --gitignore`
