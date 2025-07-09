@@ -14,7 +14,7 @@ Consider the work we were asked to complete.
 
 Are there any typecheck warnings/errors:
 
-!`pnpm run lint || echo "No lint script available"`
+!`pnpm run typecheck || echo "No lint typecheck available"`
 
 Are there any lint warnings:
 
