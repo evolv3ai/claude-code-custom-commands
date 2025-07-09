@@ -12,7 +12,8 @@ Consider the work we were asked to complete.
 - Are there missing more tests we should add?
 - Are there extraneous tests that we should remove?
 - Is there any crufty code we added?
-- Did we add any comments that are non-essential?
+- Did we add any comments that are non-critical comment? Let's remove any non-critical comment.
+  - Rename identifiers to tell the story to avoid needing comments.
 - Is the implementation clean, minimal, and crisp? Can we tighten it up?
 - Is there anything we should consider changing or improving before we move on?
 
